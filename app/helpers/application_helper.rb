@@ -1,7 +1,7 @@
 module ApplicationHelper
 
   def logo
-    #Fill in.
+    logo = image_tag("logo.png", alt: "Sample App", class: "round")
   end
 
   # Returns the full title on a per-page basis.       # Documentation comment
