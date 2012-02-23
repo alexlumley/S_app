@@ -8,11 +8,8 @@ SApp::Application.routes.draw do
   match '/contact', to: 'static_pages#contact'
 
   root to: 'static_pages#home'
-<<<<<<< HEAD
 
   get "static_pages/contact"
-=======
->>>>>>> filling-in-layout
 
   # The priority is based upon order of creation:
   # first created -> highest priority.

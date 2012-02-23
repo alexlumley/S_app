@@ -2,25 +2,13 @@
 <html>
   <head>
     <title><%= full_title(yield(:title)) %></title>
-<<<<<<< HEAD
-<<<<<<< HEAD
-    <%= stylesheet_link_tag 'blueprint/screen', :media => 'screen' %>
-    <%= stylesheet_link_tag 'blueprint/print',  :media => 'print' %>
-=======
-    <%= javascript_include_tag "application" %>
-    <%= csrf_meta_tags %>
->>>>>>> filling-in-layout
-=======
-    <%= javascript_include_tag "application" %>
-    <%= csrf_meta_tags %>
->>>>>>> filling-in-layout
-    <%= stylesheet_link_tag    "application", :media => "all" %>
+    <%= render 'layouts/stylesheets' %>
     <%= javascript_include_tag "application" %>
     <%= csrf_meta_tags %>
   </head>
   <body>
-  	<div class="container">
-     <%= render 'layouts/header' %>
+    <div class="container">
+      <%= render 'layouts/header' %>
       <section class="round">
         <%= yield %>
       </section>

@@ -1,28 +1,16 @@
 module ApplicationHelper
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-	# Returns the full title on a per-page basis.
-=======
-  # Returns the full title on a per-page basis.
->>>>>>> filling-in-layout
-=======
-  # Returns the full title on a per-page basis.
->>>>>>> filling-in-layout
-  def full_title(page_title)
-    base_title = "Ruby on Rails Tutorial Sample App"
-    if page_title.empty?
-      base_title
+  def logo
+    #Fill in.
+  end
+
+  # Returns the full title on a per-page basis.       # Documentation comment
+  def full_title(page_title)                          # Method definition
+    base_title = "Ruby on Rails Tutorial Sample App"  # Variable assignment
+    if page_title.empty?                              # Boolean test
+      base_title                                      # Implicit return
     else
-      "#{base_title} | #{page_title}"
+      "#{base_title} | #{page_title}"                 # String interpolation
     end
   end
-<<<<<<< HEAD
-<<<<<<< HEAD
 end
-=======
-end
->>>>>>> filling-in-layout
-=======
-end
->>>>>>> filling-in-layout
