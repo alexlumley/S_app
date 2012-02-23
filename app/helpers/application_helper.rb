@@ -1,7 +1,11 @@
 module ApplicationHelper
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 	# Returns the full title on a per-page basis.
+=======
+  # Returns the full title on a per-page basis.
+>>>>>>> filling-in-layout
 =======
   # Returns the full title on a per-page basis.
 >>>>>>> filling-in-layout
@@ -14,7 +18,11 @@ module ApplicationHelper
     end
   end
 <<<<<<< HEAD
+<<<<<<< HEAD
 end
+=======
+end
+>>>>>>> filling-in-layout
 =======
 end
 >>>>>>> filling-in-layout
